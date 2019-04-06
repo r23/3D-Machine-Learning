@@ -105,7 +105,7 @@ To see a survey of RGBD datasets, check out Michael Firman's [collection](http:/
 <b>ABC: A Big CAD Model Dataset For Geometric Deep Learning</b> [[Link]](https://cs.nyu.edu/~zhongshi/publication/abc-dataset/)[[Paper]](https://arxiv.org/abs/1812.06216)
 <br>This work introduce a dataset for geometric deep learning consisting of over 1 million individual (and high quality) geometric models, each associated with accurate ground truth information on the decomposition into patches, explicit sharp feature annotations, and analytic differential properties.<br>
 <p align="center"><img width="50%" src="https://cs.nyu.edu/~zhongshi/img/abc-dataset.png" /></p>
-  
+
 <a name="3d_scenes" />
 
 ### 3D Scenes
@@ -295,7 +295,11 @@ To see a survey of RGBD datasets, check out Michael Firman's [collection](http:/
 :game_die::space_invader: <b>PointGrid: A Deep Network for 3D Shape Understanding (CVPR 2018) </b> [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf) [[Code]](https://github.com/trucleduc/PointGrid)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/PointGrid-%20A%20Deep%20Network%20for%203D%20Shape%20Understanding%20(2018).jpeg" /></p>
 
+:gem: <b> MeshNet: Mesh Neural Network for 3D Shape Representation (AAAI 2019) </b> [[Paper]](https://arxiv.org/pdf/1811.11424.pdf) [[Code]](https://github.com/Yue-Group/MeshNet)
+<p align="center"><img width="50%" src="http://www.gaoyue.org/en_tsinghua/resrc/meshnet.jpg" /></p>
+
 <a name="multiple_detection" />
+
 
 ## Multiple Objects Detection
 <b>Sliding Shapes for 3D Object Detection in Depth Images (2014)</b> [[Paper]](http://slidingshapes.cs.princeton.edu/)
@@ -316,8 +320,19 @@ To see a survey of RGBD datasets, check out Michael Firman's [collection](http:/
 <b>VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection (2017)</b> [[Paper]](https://arxiv.org/pdf/1711.06396.pdf)
 <p align="center"><img width="50%" src="https://pbs.twimg.com/media/DPMtLhHXUAcQUj2.jpg" /></p>
 
-<b>Frustum PointNets for 3D Object Detection from RGB-D Data (2017)</b> [[Paper]](https://arxiv.org/pdf/1711.08488.pdf)
-<p align="center"><img width="50%" src="https://arxiv-sanity-sanity-production.s3.amazonaws.com/render-output/17548/fig/teaser.svg" /></p>
+<b>Frustum PointNets for 3D Object Detection from RGB-D Data (CVPR2018)</b> [[Paper]](https://arxiv.org/pdf/1711.08488.pdf)
+
+<p align="center"><img width="50%" src="http://stanford.edu/~rqi/frustum-pointnets/images/teaser.jpg" /></p>
+
+<b>A^2-Net: Molecular Structure Estimation from Cryo-EM Density Volumes (AAAI2019)</b> [[Paper]](https://arxiv.org/abs/1901.00785)
+
+<p align="center"><img width="50%" src="imgs/a-square-net-min.jpg" /></p>
+
+<b>Stereo R-CNN based 3D Object Detection for Autonomous Driving (CVPR2019)</b> [[Paper]](https://arxiv.org/abs/1902.09738v1)
+
+<p align="center"><img width="50%" src="https://www.groundai.com/media/arxiv_projects/515338/system_newnew.png" /></p>
+
+
 
 <a name="segmentation" />
 
@@ -635,7 +650,7 @@ _Deep Learning Methods_
 <p align="center"><img width="50%" src="http://text2shape.stanford.edu/figures/pull.png" /></p>
 
 :space_invader::gem::camera: <b>Multi-View Silhouette and Depth Decomposition for High Resolution 3D Object Representation (2018)</b>  [[Paper]](https://arxiv.org/abs/1802.09987) [[Code]](https://github.com/EdwardSmith1884/Multi-View-Silhouette-and-Depth-Decomposition-for-High-Resolution-3D-Object-Representation)
-<p align="center"><img width="60%" src="imgs/decomposition_new.png" /> <img width="60%" src="imgs/256.png" /></p>
+<p align="center"><img width="60%" src="imgs/decomposition_new.png" /> <img width="60%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Multi-View%20Silhouette%20and%20Depth%20Decomposition%20for%20High%20Resolution%203D%20Object%20Representation.png" /></p>
 
 :space_invader::gem::camera: <b>Pixels, voxels, and views: A study of shape representations for single view 3D object shape prediction (2018 CVPR)</b>  [[Paper]](https://arxiv.org/abs/1804.06032)
 <p align="center"><img width="60%" src="imgs/pixels-voxels-views-rgb2mesh.png" /> </p>
@@ -673,8 +688,14 @@ _Deep Learning Methods_
 :game_die: <b>Visual Object Networks: Image Generation with Disentangled 3D Representation (2018)</b> [[Paper]](https://papers.nips.cc/paper/7297-visual-object-networks-image-generation-with-disentangled-3d-representations.pdf)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Visual%20Object%20Networks-%20Image%20Generation%20with%20Disentangled%203D%20Representation%20(2018).jpeg" /></p>
 
-:space_invader: <b>Learning to Infer and Execute 3D Shape Programs (2019))
+:space_invader: <b>Learning to Infer and Execute 3D Shape Programs (2019))</b> [[Paper]](http://shape2prog.csail.mit.edu/)
 <p align="center"><img width="50%" src="http://shape2prog.csail.mit.edu/shape_files/teaser.jpg" /></p>
+
+:space_invader: <b>Learning to Infer and Execute 3D Shape Programs (2019))</b> [[Paper]](https://arxiv.org/pdf/1901.05103.pdf)
+<p align="center"><img width="50%" src="https://pbs.twimg.com/media/DxFaW-mU8AEo9wc.jpg" /></p>
+
+:gem: <b>Learning View Priors for Single-view 3D Reconstruction (CVPR 2019)</b> [[Paper]](http://hiroharu-kato.com/projects_en/view_prior_learning.html)
+<p align="center"><img width="50%" src="" /></p>
 
 <a name="material_synthesis" />
 
@@ -726,6 +747,10 @@ _Deep Learning Methods_
 
 <b>Learning Material-Aware Local Descriptors for 3D Shapes (2018)</b> [[Paper]](http://www.vovakim.com/papers/18_3DV_ShapeMatFeat.pdf)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Learning%20Material-Aware%20Local%20Descriptors%20for%203D%20Shapes%20(2018).jpeg" /></p>
+
+<b>FrankenGAN: Guided Detail Synthesis for Building Mass Models 
+using Style-Synchonized GANs (2018 SIGGRAPH Asia)</b> [[Paper]](http://geometry.cs.ucl.ac.uk/projects/2018/frankengan/)
+<p align="center"><img width="50%" src="http://geometry.cs.ucl.ac.uk/projects/2018/frankengan/paper_docs/teaser.jpg" /></p>
 
 <a name="style_transfer" />
 
@@ -813,6 +838,9 @@ _Deep Learning Methods_
 
 <b>SceneSuggest: Context-driven 3D Scene Design (2017)</b> [[Paper]](https://arxiv.org/pdf/1703.00061.pdf)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/SceneSuggest%20-Context-driven%203D%20Scene%20Design%20(2017).png" /></p>
+
+<b>A fully end-to-end deep learning approach for real-time simultaneous 3D reconstruction and material recognition (2017)</b> [[Paper]](https://arxiv.org/pdf/1703.04699v1.pdf)
+<p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/A%20fully%20end-to-end%20deep%20learning%20approach%20for%20real-time%20simultaneous%203D%20reconstruction%20and%20material%20recognition%20(2017).png" /></p>
 
 <b>Human-centric Indoor Scene Synthesis Using Stochastic Grammar (2018, CVPR)</b>[[Paper]](http://web.cs.ucla.edu/~syqi/publications/cvpr2018synthesis/cvpr2018synthesis.pdf) [[Supplementary]](http://web.cs.ucla.edu/~syqi/publications/cvpr2018synthesis/cvpr2018synthesis_supplementary.pdf) [[Code]](https://github.com/SiyuanQi/human-centric-scene-synthesis)
 <p align="center"><img width="50%" src="http://web.cs.ucla.edu/~syqi/publications/thumbnails/cvpr2018synthesis.gif" /></p>
@@ -914,3 +942,6 @@ with Per-Pixel Ground Truth using Stochastic Grammars (2018)</b> [[Paper]](https
 
 <b>Automatic 3D Indoor Scene Modeling from Single Panorama (2018 CVPR)</b> [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_Automatic_3D_Indoor_CVPR_2018_paper.pdf) <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Automatic%203D%20Indoor%20Scene%20Modeling%20from%20Single%20Panorama%20(2018%20CVPR).jpeg" /></p>
 
+<b>Single-Image Piece-wise Planar 3D Reconstruction via Associative Embedding (2019 CVPR)</b> [[Paper]](https://arxiv.org/pdf/1902.09777.pdf) [[Code]](https://github.com/svip-lab/PlanarReconstruction) <p align="center"><img width="50%" src="https://github.com/svip-lab/PlanarReconstruction/blob/master/misc/pipeline.jpg" /></p>
+
+<b>3D-Aware Scene Manipulation via Inverse Graphics (NeurIPS 2018)</b> [[Paper]](http://3dsdn.csail.mit.edu/) [[Code]](https://github.com/svip-lab/PlanarReconstruction) <p align="center"><img width="50%" src="http://3dsdn.csail.mit.edu/images/teaser.png" /></p>
