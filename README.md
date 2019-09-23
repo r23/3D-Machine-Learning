@@ -347,7 +347,8 @@ To see a survey of RGBD datasets, check out Michael Firman's [collection](http:/
 
 <p align="center"><img width="50%" src="https://www.groundai.com/media/arxiv_projects/515338/system_newnew.png" /></p>
 
-
+<b>Deep Hough Voting for 3D Object Detection in Point Clouds (ICCV2019)</b> [[Paper]](https://arxiv.org/pdf/1904.09664.pdf) [[code]](https://github.com/facebookresearch/votenet)
+<p align="center"><img width="50%" src="https://github.com/facebookresearch/votenet/blob/master/doc/teaser.jpg" /></p>
 
 <a name="segmentation" />
 
@@ -697,7 +698,11 @@ _Deep Learning Methods_
 :space_invader: <b>Matryoshka Networks: Predicting 3D Geometry via Nested Shape Layers (2018 CVPR)</b> [[Paper]](https://arxiv.org/pdf/1804.10975.pdf)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Matryoshka%20Networks-%20Predicting%203D%20Geometry%20via%20Nested%20Shape%20Layers%20(2018%20CVPR).jpeg" /></p>
 
-:space_invader: <b>Global-to-Local Generative Model for 3D Shapes (SIGGRAPH Asia 2018)</b> [[Paper]](http://vcc.szu.edu.cn/research/2018/G2L)
+:gem: <b>	
+Deformable Shape Completion with Graph Convolutional Autoencoders (2018 CVPR)</b> [[Paper]](https://arxiv.org/pdf/1712.00268v1.pdf)
+<p align="center"><img width="50%" src="https://orlitany.github.io/OL_files/shapeComp.png" /></p>
+
+:space_invader: <b>Global-to-Local Generative Model for 3D Shapes (SIGGRAPH Asia 2018)</b> [[Paper]](http://vcc.szu.edu.cn/research/2018/G2L)[[Code]](https://github.com/Hao-HUST/G2LGAN)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Global-to-Local%20Generative%20Model%20for%203D%20Shapes.jpg" /></p>
 
 :gem::game_die::space_invader: <b>ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning (TOG 2018)</b> [[Paper]](https://bit.ly/alignet) [[Code]](https://github.com/ranahanocka/ALIGNet/)
@@ -721,8 +726,11 @@ _Deep Learning Methods_
 :gem: <b>Learning View Priors for Single-view 3D Reconstruction (CVPR 2019)</b> [[Paper]](http://hiroharu-kato.com/projects_en/view_prior_learning.html)
 <p align="center"><img width="50%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Learning%20View%20Priors%20for%20Single-view%203D%20Reconstruction.png" /></p>
 
-:gem::game_die: <b>Learning Embedding of 3D models with Quadric Loss (BMVC 2019)</b> [[Paper]](https://arxiv.org/abs/1907.10250)
+:gem::game_die: <b>Learning Embedding of 3D models with Quadric Loss (BMVC 2019)</b> [[Paper]](https://arxiv.org/abs/1907.10250) [[Code]](https://github.com/nitinagarwal/QuadricLoss)
 <p align="center"><img width="50%" src="https://www.ics.uci.edu/~agarwal/bmvc_2019.png" /></p>
+
+:game_die: <b>CompoNet: Learning to Generate the Unseen by Part Synthesis and Composition (ICCV 2019)</b> [[Paper]](https://arxiv.org/abs/1811.07441)[[Code]](https://github.com/nschor/CompoNet)
+<p align="center"><img width="50%" src="https://raw.githubusercontent.com/nschor/CompoNet/master/images/network_architecture.png" /></p>
 
 <a name="material_synthesis" />
 
@@ -987,3 +995,5 @@ with Per-Pixel Ground Truth using Stochastic Grammars (2018)</b> [[Paper]](https
 <b>Single-Image Piece-wise Planar 3D Reconstruction via Associative Embedding (2019 CVPR)</b> [[Paper]](https://arxiv.org/pdf/1902.09777.pdf) [[Code]](https://github.com/svip-lab/PlanarReconstruction) <p align="center"><img width="50%" src="https://github.com/svip-lab/PlanarReconstruction/blob/master/misc/pipeline.jpg" /></p>
 
 <b>3D-Aware Scene Manipulation via Inverse Graphics (NeurIPS 2018)</b> [[Paper]](http://3dsdn.csail.mit.edu/) [[Code]](https://github.com/svip-lab/PlanarReconstruction) <p align="center"><img width="50%" src="http://3dsdn.csail.mit.edu/images/teaser.png" /></p>
+
+:gem: <b>3D Scene Reconstruction with Multi-layer Depth and Epipolar Transformers (ICCV 2019)</b> [[Paper]](https://research.dshin.org/iccv19/multi-layer-depth/) <p align="center"><img width="50%" src="https://research.dshin.org/iccv19/multi-layer-depth/figures/overview_1.png" /><br><img width="50%" src="https://research.dshin.org/iccv19/multi-layer-depth/figures/voxelization00.jpg" /></p>
