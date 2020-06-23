@@ -8,6 +8,8 @@ I'll use the following icons to differentiate 3D representations:
 * :gem: Polygonal Mesh
 * :pill: Primitive-based
 
+To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which provides a neat way to visualize the academic field in a graph representation. 
+
 ## Get Involved
 To contribute to this Repo, you may add content through pull requests or open an issue to let me know. 
 
@@ -319,6 +321,9 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 
 :gem: <b>MeshCNN (SIGGRAPH 2019)</b> [[Paper]](https://bit.ly/meshcnn)[[Code]](https://github.com/ranahanocka/MeshCNN)
 <p align="center"><img width="50%" src="https://github.com/ranahanocka/MeshCNN/blob/master/docs/imgs/alien.gif?raw=true" /></p>
+
+:game_die: <b>SampleNet: Differentiable Point Cloud Sampling (CVPR 2020)</b> [[Paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Lang_SampleNet_Differentiable_Point_Cloud_Sampling_CVPR_2020_paper.pdf) [[Code]](https://github.com/itailang/SampleNet)
+<p align="center"><img width="50%" src="https://github.com/itailang/SampleNet/blob/master/doc/teaser.png" /></p>
 
 <a name="multiple_detection" />
 
@@ -988,6 +993,9 @@ with Per-Pixel Ground Truth using Stochastic Grammars (2018)</b> [[Paper]](https
 
 <b>:space_invader: End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans (arXiv 2019)</b> [[Paper]](https://arxiv.org/abs/1906.04201)
 <p align="center"><img width="50%" src="http://www.niessnerlab.org/papers/2019/z2end2end/teaser.jpg" /></p>
+
+<b>:space_invader: Feature-metric Registration: A Fast Semi-Supervised Approach for Robust Point Cloud Registration without Correspondences (CVPR 2020)</b> [[Paper]](https://arxiv.org/abs/2005.01014)[[Code]](https://github.com/XiaoshuiHuang/fmr)
+<p align="center"><img width="50%" src="https://github.com/XiaoshuiHuang/xiaoshuihuang.github.io/blob/master/research/2020-feature-metric.png?raw=true" /></p>
 
 <a name="scene_understanding" />
 
