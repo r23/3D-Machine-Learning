@@ -118,6 +118,22 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 <br>[VOCASET](https://voca.is.tue.mpg.de/), is a 4D face dataset with about 29 minutes of 4D scans captured at 60 fps and synchronized audio. The dataset has 12 subjects and 480 sequences of about 3-4 seconds each with sentences chosen from an array of standard protocols that maximize  phonetic  diversity. 
 <p align="center"><img width="50%" src="https://github.com/TimoBolkart/voca/blob/master/gif/vocaset.gif" /></p>
 
+<b>3D-FUTURE: 3D FUrniture shape with TextURE (2020(</b> [[Link]](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future?spm=5176.14208320.0.0.66293cf7asRnrR)
+<br>[VOCASET](https://voca.is.tue.mpg.de/), contains 20,000+ clean and realistic synthetic scenes in 5,000+ diverse rooms, which include 10,000+ unique high quality 3D instances of furniture with high resolution informative textures developed by professional designers. 
+<p align="center"><img width="50%" src="https://img.alicdn.com/tfs/TB1HTSfz4v1gK0jSZFFXXb0sXXa-1999-1037.png" /></p>
+
+
+<b>Fusion 360 Gallery Dataset (2020)</b> [[Link]](https://github.com/AutodeskAILab/Fusion360GalleryDataset)[[Paper]](https://arxiv.org/abs/2010.02392)
+<br>The [Fusion 360 Gallery Dataset](https://github.com/AutodeskAILab/Fusion360GalleryDataset) contains rich 2D and 3D geometry data derived from parametric CAD models. The Reconstruction Dataset provides sequential construction sequence information from a subset of simple 'sketch and extrude' designs. The Segmentation Dataset provides a segmentation of 3D models based on the CAD modeling operation, including B-Rep format, mesh, and point cloud.
+<p align="center"><img width="50%" src="https://raw.githubusercontent.com/AutodeskAILab/Fusion360GalleryDataset/master/docs/images/reconstruction_teaser.jpg" />
+<img width="50%" src="https://raw.githubusercontent.com/AutodeskAILab/Fusion360GalleryDataset/master/docs/images/segmentation_example.jpg" /></p>
+
+<b>Combinatorial 3D Shape Dataset (2020)</b> [[Link]](https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation)[[Paper]](https://arxiv.org/abs/2004.07414)
+<br>[Combinatorial 3D Shape Dataset](https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation) is composed of 406 instances of 14 classes. Each object in our dataset is considered equivalent to a sequence of primitive placement. Compared to other 3D object datasets, our proposed dataset contains an assembling sequence of unit primitives. It implies that we can quickly obtain a sequential generation process that is a human assembling mechanism. Furthermore, we can sample valid random sequences from a given combinatorial shape after validating the sampled sequences. To sum up, the characteristics of our combinatorial 3D shape dataset are (i) combinatorial, (ii) sequential, (iii) decomposable, and (iv) manipulable.
+<p align="center">
+<img width="65%" src="imgs/combinatorial_3d_shape_dataset.png" />
+</p>
+
 <a name="3d_scenes" />
 
 ### 3D Scenes
@@ -180,6 +196,13 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 
 <b>Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling</b> [[Link]](https://structured3d-dataset.org/)
 <p align="center"><img width="50%" src="https://structured3d-dataset.org/static/img/teaser.png" /></p>
+
+<b>3D-FRONT: 3D Furnished Rooms with layOuts and semaNTics</b> [[Link]](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset)
+<br>Contains 10,000 houses (or apartments) and ~70,000 rooms with layout information. 
+<p align="center"><img width="50%" src="https://img.alicdn.com/tfs/TB131XOJeL2gK0jSZPhXXahvXXa-2992-2751.jpg" /></p>
+
+<b>3ThreeDWorld(TDW): A High-Fidelity, Multi-Modal Platform for Interactive Physical Simulation</b> [[Link]](http://www.threedworld.org/)
+<p align="center"><img width="50%" src="http://www.threedworld.org/img/gallery/gallery-1.jpg" /></p>
 
 <a name="pose_estimation" />
 
@@ -474,7 +497,7 @@ _Parametric Morphable Model-based methods_
 <b>A Morphable Model For The Synthesis Of 3D Faces (1999)</b> [[Paper]](http://gravis.dmi.unibas.ch/publications/Sigg99/morphmod2.pdf)[[Code]](https://github.com/MichaelMure/3DMM)
 <p align="center"><img width="40%" src="http://mblogthumb3.phinf.naver.net/MjAxNzAzMTdfMjcz/MDAxNDg5NzE3MzU0ODI3.9lQioLxwoGmtoIVXX9sbVOzhezoqgKMKiTovBnbUFN0g.sXN5tG4Kohgk7OJEtPnux-mv7OAoXVxxCyo3SGZMc6Yg.PNG.atelierjpro/031717_0222_DataDrivenS4.png?type=w420" /></p>
 
-<b>FLAME: Faces Learned with an Articulated Model and Expressions (2017)</b> [[Paper]](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/400/paper.pdf)[[Code (Chumpy)]](https://github.com/Rubikplayer/flame-fitting)[[Code (TF)]](https://github.com/TimoBolkart/TF_FLAME)
+<b>FLAME: Faces Learned with an Articulated Model and Expressions (2017)</b> [[Paper]](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/400/paper.pdf)[[Code (Chumpy)]](https://github.com/Rubikplayer/flame-fitting)[[Code (TF)]](https://github.com/TimoBolkart/TF_FLAME) [[Code (PyTorch)]](https://github.com/HavenFeng/photometric_optimization)
 <br>[FLAME](http://flame.is.tue.mpg.de/) is a lightweight and expressive generic head model learned from over 33,000 of accurately aligned 3D scans. The model combines a linear identity shape space (trained from 3800 scans of human heads) with an articulated neck, jaw, and eyeballs, pose-dependent corrective blendshapes, and additional global expression blendshapes.
 The code demonstrates how to 1) reconstruct textured 3D faces from images, 2) fit the model to 3D landmarks or registered 3D meshes, or 3) generate 3D face templates for [speech-driven facial animation](https://github.com/TimoBolkart/voca).
 <p align="center"> <img width="50%" src="https://github.com/TimoBolkart/TF_FLAME/blob/master/gifs/model_variations.gif"></p>
@@ -484,6 +507,9 @@ The code demonstrates how to 1) reconstruct textured 3D faces from images, 2) fi
 
 <b>SMPL-X: Expressive Body Capture: 3D Hands, Face, and Body from a Single Image (2019)</b> [[Paper]](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/497/SMPL-X.pdf)[[Video]](https://youtu.be/XyXIEmapWkw)[[Code]](https://github.com/vchoutas/smplify-x)
 <p align="center"> <img width="50%" src="https://github.com/vchoutas/smplify-x/blob/master/images/teaser_fig.png"></p>
+
+<b>ExPose: Monocular Expressive Body Regression through Body-Driven Attention (2020)</b> [[Paper]](https://ps.is.tuebingen.mpg.de/uploads_file/attachment/attachment/620/0983.pdf)[[Video]](https://youtu.be/lNTmHLYTiB8)[[Code]](https://github.com/vchoutas/expose)
+<p align="center"> <img width="50%" src="https://github.com/vchoutas/expose/blob/master/images/expose.png"></p>
 
 <b>Category-Specific Object Reconstruction from a Single Image (2014)</b> [[Paper]](https://people.eecs.berkeley.edu/~akar/categoryshapes.pdf)
 <p align="center"><img width="50%" src="http://people.eecs.berkeley.edu/~akar/categoryShapes/images/teaser.png" /></p>
@@ -659,6 +685,9 @@ _Deep Learning Methods_
 :camera: <b>SurfNet: Generating 3D shape surfaces using deep residual networks (2017)</b> [[Paper]](https://arxiv.org/pdf/1703.04079.pdf)
 <p align="center"><img width="50%" src="https://3dadept.com/wp-content/uploads/2017/07/Screenshot-from-2017-07-26-145521-e1501077539723.png" /></p>
 
+:camera: <b>Learning to Reconstruct Symmetric Shapes using Planar Parameterization of 3D Surface (2019)</b> [[Paper]](https://openaccess.thecvf.com/content_ICCVW_2019/papers/GMDL/Jain_Learning_to_Reconstruct_Symmetric_Shapes_using_Planar_Parameterization_of_3D_ICCVW_2019_paper.pdf) [[Code]](https://github.com/hrdkjain/LearningSymmetricShapes)
+<p align="center"><img width="50%" src="https://github.com/hrdkjain/LearningSymmetricShapes/blob/master/Images/teaser.png" /></p>
+
 :pill: <b>GRASS: Generative Recursive Autoencoders for Shape Structures (SIGGRAPH 2017)</b> [[Paper]](http://kevinkaixu.net/projects/grass.html) [[Code]](https://github.com/junli-lj/grass) [[code]](https://github.com/kevin-kaixu/grass_pytorch)
 <p align="center"><img width="50%" src="http://kevinkaixu.net/projects/grass/teaser.jpg" /></p>
 
@@ -802,6 +831,9 @@ Deformable Shape Completion with Graph Convolutional Autoencoders (2018 CVPR)</b
 
 <b>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</b> [[Project]](http://www.matthewtancik.com/nerf)[[Paper]](https://arxiv.org/abs/2003.08934)[[Code]](https://github.com/bmild/nerf)
 <p align="center"> <img width="50%" src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5e700ef6067b43821ed52768_pipeline_website-01-p-800.png"> </p>
+
+:gem::game_die: <b>GAMesh: Guided and Augmented Meshing for Deep Point Networks (3DV 2020)</b> [[Project]](https://www.ics.uci.edu/~agarwal/GAMesh/) [[Paper]](https://arxiv.org/abs/2010.09774) [[Code]](https://github.com/nitinagarwal/GAMesh)
+<p align="center"><img width="50%" src="https://www.ics.uci.edu/~agarwal/3DV_2020.png" /></p>
 
 <a name="material_synthesis" />
 
@@ -999,7 +1031,8 @@ with Per-Pixel Ground Truth using Stochastic Grammars (2018)</b> [[Paper]](https
 
 <a name="scene_understanding" />
 
-## Scene Understanding
+## Scene Understanding (Another more detailed [repository](https://github.com/bertjiazheng/awesome-scene-understanding))
+
 <b>Recovering the Spatial Layout of Cluttered Rooms (2009)</b> [[Paper]](http://dhoiem.cs.illinois.edu/publications/iccv2009_hedau_indoor.pdf)
 <p align="center"><img width="60%" src="https://github.com/timzhang642/3D-Machine-Learning/blob/master/imgs/Recovering%20the%20Spatial%20Layout%20of%20Cluttered%20Rooms.png" /></p>
 
@@ -1071,3 +1104,7 @@ with Per-Pixel Ground Truth using Stochastic Grammars (2018)</b> [[Paper]](https
 <b>3D-Aware Scene Manipulation via Inverse Graphics (NeurIPS 2018)</b> [[Paper]](http://3dsdn.csail.mit.edu/) [[Code]](https://github.com/svip-lab/PlanarReconstruction) <p align="center"><img width="50%" src="http://3dsdn.csail.mit.edu/images/teaser.png" /></p>
 
 :gem: <b>3D Scene Reconstruction with Multi-layer Depth and Epipolar Transformers (ICCV 2019)</b> [[Paper]](https://research.dshin.org/iccv19/multi-layer-depth/) <p align="center"><img width="50%" src="https://research.dshin.org/iccv19/multi-layer-depth/figures/overview_1.png" /><br><img width="50%" src="https://research.dshin.org/iccv19/multi-layer-depth/figures/voxelization00.jpg" /></p>
+
+<b>PerspectiveNet: 3D Object Detection from a Single RGB Image via Perspective Points (NIPS 2019)</b> [[Paper]](https://papers.nips.cc/paper/9093-perspectivenet-3d-object-detection-from-a-single-rgb-image-via-perspective-points.pdf) <p align="center"><img width="50%" src="https://storage.googleapis.com/groundai-web-prod/media/users/user_288036/project_402358/images/x1.png" /></p>
+
+<b>Holistic++ Scene Understanding: Single-view 3D Holistic Scene Parsing and Human Pose Estimation with Human-Object Interaction and Physical Commonsense (ICCV 2019)</b> [[Paper & Code]](https://github.com/yixchen/holistic_scene_human) <p align="center"><img width="50%" src="https://yixchen.github.io/holisticpp/file/pg.png" /></p>
