@@ -267,6 +267,9 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 <b>Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects (2018)</b> [[Paper]](https://research.nvidia.com/publication/2018-09_Deep-Object-Pose)
 <p align="center"><img width="50%" src="https://research.nvidia.com/sites/default/files/publications/forwebsite1_0.png" /></p>
 
+<b>MocapNET2: a real-time method that estimates the 3D human pose directly in the popular Bio Vision Hierarchy (BVH) format (2021)</b> [[Paper]](http://users.ics.forth.gr/~argyros/mypapers/2021_01_ICPR_Qammaz.pdf), [[Code]](https://github.com/FORTH-ModelBasedTracker/MocapNET)
+<p align="center"><img width="50%" src="https://raw.githubusercontent.com/FORTH-ModelBasedTracker/MocapNET/master/doc/mnet2.png" /></p>
+
 <a name="single_classification" />
 
 ## Single Object Classification
@@ -868,7 +871,11 @@ Generative PointNet is an energy-based model of unordered point clouds, where th
 
 <p align="center"><img width="60%" src="imgs/gpointnet.png" /></p>
 
+:game_die: :gem: <b>Shape My Face: Registering 3D Face Scans by Surface-to-Surface Translation</b> [[Paper]](https://arxiv.org/abs/2012.09235) [[Code]](https://github.com/mbahri/smf)
 
+Shape My Face (SMF) is a point cloud to mesh auto-encoder for the registration of raw human face scans, and the generation of synthetic human faces. SMF leverages a modified PointNet encoder with a visual attention module and differentiable surface sampling to be independent of the original surface representation and reduce the need for pre-processing. Mesh convolution decoders are combined with a specialized PCA model of the mouth, and smoothly blended based on geodesic distances, to create a compact model that is highly robust to noise. SMF is applied to register and perform expression transfer on scans captured in-the-wild with an iPhone depth camera represented either as meshes or point clouds.
+
+<p align="center"><img width="60%" src="imgs/ShapeMyFace.png" /></p>
 
 <a name="material_synthesis" />
 
